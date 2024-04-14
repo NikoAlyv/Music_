@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "music",
+    "slug": "music",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/iconMan.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splashScreen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1b1818"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/group.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Nunito-Regular.ttf",
+            "./assets/fonts/Nunito-SemiBold.ttf"
+          ]
+        }
+      ]
+    ]
+  }
+}
